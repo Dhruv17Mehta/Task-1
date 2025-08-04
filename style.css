@@ -9,7 +9,6 @@ body {
     line-height: 1.6;
 }
 
-/* Header */
 header {
     background: #111;
     color: #fff;
@@ -50,7 +49,6 @@ header {
     cursor: pointer;
 }
 
-/* Hero Section */
 .hero {
     height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1498050108023-c5249f4df085') no-repeat center center/cover;
@@ -89,7 +87,6 @@ header {
     transform: scale(1.05);
 }
 
-/* Footer */
 footer {
     background: #111;
     color: #fff;
@@ -112,7 +109,6 @@ footer {
     color: #fff;
 }
 
-/* Animations */
 @keyframes fadeInDown {
     0% { opacity: 0; transform: translateY(-50px); }
     100% { opacity: 1; transform: translateY(0); }
@@ -123,7 +119,6 @@ footer {
     100% { opacity: 1; transform: translateY(0); }
 }
 
-/* Responsive */
 @media (max-width: 768px) {
     .nav-links {
         flex-direction: column;
